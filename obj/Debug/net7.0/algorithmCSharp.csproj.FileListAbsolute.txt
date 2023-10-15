@@ -1,0 +1,14 @@
+C:\Users\User\desktop\code\algorithmCSharp\bin\Debug\net7.0\algorithmCSharp.exe
+C:\Users\User\desktop\code\algorithmCSharp\bin\Debug\net7.0\algorithmCSharp.deps.json
+C:\Users\User\desktop\code\algorithmCSharp\bin\Debug\net7.0\algorithmCSharp.runtimeconfig.json
+C:\Users\User\desktop\code\algorithmCSharp\bin\Debug\net7.0\algorithmCSharp.dll
+C:\Users\User\desktop\code\algorithmCSharp\bin\Debug\net7.0\algorithmCSharp.pdb
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.AssemblyInfoInputs.cache
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.AssemblyInfo.cs
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.csproj.CoreCompileInputs.cache
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.dll
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\refint\algorithmCSharp.dll
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.pdb
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\algorithmCSharp.genruntimeconfig.cache
+C:\Users\User\desktop\code\algorithmCSharp\obj\Debug\net7.0\ref\algorithmCSharp.dll
