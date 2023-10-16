@@ -187,5 +187,103 @@ void crudInt()
 
 }
 
+void firstQueue()
+{
+  Console.Clear();
+  Queue f = new Queue();
 
-crudInt();
+  f.Enqueue(1); f.Enqueue(2); f.Enqueue(3); f.Enqueue(4); f.Enqueue(5);
+
+  foreach (object o in f)
+  {
+    Console.WriteLine(o);
+  }
+
+  f.Dequeue();
+
+  if (f.Contains(1))
+  {
+    Console.WriteLine("Contem o elemento 1 na fila");
+  }
+  else
+  {
+    Console.WriteLine("Não contem o elemento 1 na fila");
+  }
+
+  if (f.Contains(5))
+  {
+    Console.WriteLine("Contem o elemento 5 na fila");
+  }
+  else
+  {
+    Console.WriteLine("Não contem o elemento 5 na fila");
+  }
+
+  Console.WriteLine($"O próximo objeto a ser removido será o {f.Peek()}");
+
+  f.Enqueue(6); f.Enqueue(7); f.Enqueue(8); f.Enqueue(9); f.Enqueue(10);
+
+  object next = f.Dequeue();
+  object next2 = f.Dequeue();
+
+  Console.WriteLine($"Os 2 elementos removidos foram {next} e o {next2}");
+  f.Clear();
+  Console.WriteLine($"Os elementos que restaram da fila foram :");
+
+  foreach (object o in f)
+  {
+    Console.WriteLine(o);
+  }
+}
+
+void firstStack()
+{
+  Console.Clear();
+  Stack p = new Stack();
+
+  p.Push(1); p.Push(2); p.Push(3); p.Push(4); p.Push(5);
+
+  foreach (object o in p)
+  {
+    Console.WriteLine(o);
+  }
+
+  p.Pop();
+
+  if (p.Contains(1))
+  {
+    Console.WriteLine("Contem o elemento 1 na pilha");
+  }
+  else
+  {
+    Console.WriteLine("Não contem o elemento 1 na pilha");
+  }
+
+  if (p.Contains(5))
+  {
+    Console.WriteLine("Contem o elemento 5 na pilha");
+  }
+  else
+  {
+    Console.WriteLine("Não contem o elemento 5 na pilha");
+  }
+
+  Console.WriteLine($"O próximo objeto a ser removido será o {p.Peek()}");
+
+  p.Push(6); p.Push(7); p.Push(8); p.Push(9); p.Push(10);
+
+  object next = p.Pop();
+  object next2 = p.Pop();
+
+  Console.WriteLine($"Os 2 elementos removidos foram {next} e o {next2}");
+  p.Clear();
+  Console.WriteLine($"Os elementos que restaram da fila foram :");
+
+  foreach (object o in p)
+  {
+    Console.WriteLine(o);
+  }
+}
+// crudInt();
+//firstQueue();
+firstStack();
